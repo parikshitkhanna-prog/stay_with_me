@@ -128,10 +128,10 @@ body {
     animation: textclip 5s linear infinite;
     display: inline-block;
     font-size: 6vw;
-    margin: 0; /* Remove default margins */
+    margin: 0;
 }
 
-/* Adjust animation keyframes */
+
 @keyframes textclip {
     0% {
         background-position: 0% center;
