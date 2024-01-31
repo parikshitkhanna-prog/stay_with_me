@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Your Website</title>
+  </head>
+  <body>
+    <video id="video-background" autoplay muted loop>
+      <source src="./images/fancy.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="loading-container">
+      <div class="loading-text" id="text1">&#x2770; Connecting to server &#x2771;</div>
+      <div class="loading-text" id="text2">&#x276E; Fueling the idea &#x276F;</div>
+      <div class="loading-text" id="text3">&#x275D; Being Awesome &#x275E;</div>
+      <!-- Add more text elements as needed -->
+    </div>
+
+    <div class="content">
+      <div class="countdown-container">
+        <h1 class="countdown-header">Countdown to Something</h1>
+        <div class="countdown" id="countdown">
+          <div class="countdown-item">
+            <span class="countdown-number" id="days">00</span>
+            <span class="countdown-label">days</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="hours">00</span>
+            <span class="countdown-label">hours</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="minutes">00</span>
+            <span class="countdown-label">minutes</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="seconds">00</span>
+            <span class="countdown-label">seconds</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
